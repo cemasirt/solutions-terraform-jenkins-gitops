@@ -13,9 +13,9 @@
 # limitations under the License.
 
 
-terraform {
-  backend "gcs" {
-    bucket = "jenkinsterraform-tfstate"
-    prefix = "env/prod"
-  }
-}
+#terraform {
+#  backend "gcs" {
+#    bucket = "jenkinsterraform-tfstate"
+#    prefix = "env/prod"
+#  }
+#}
